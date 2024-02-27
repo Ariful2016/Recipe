@@ -1,10 +1,14 @@
 <resources>
     <!-- Layout width -->
     <dimen name="width_0">0dp</dimen>
+    <dimen name="width_36">36dp</dimen>
     <dimen name="width_100">100dp</dimen>
     <dimen name="width_200">200dp</dimen>
     <!-- Layout height -->
     <dimen name="height_0">0dp</dimen>
+    <dimen name="height_36">36dp</dimen>
+    <dimen name="height_50">50dp</dimen>
+    <dimen name="height_65">65dp</dimen>
     <dimen name="height_100">100dp</dimen>
 
     <!-- Text size -->
