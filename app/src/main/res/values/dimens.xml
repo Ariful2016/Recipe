@@ -1,0 +1,25 @@
+<resources>
+    <!-- Layout width -->
+    <dimen name="width_0">0dp</dimen>
+    <dimen name="width_100">100dp</dimen>
+    <dimen name="width_200">200dp</dimen>
+    <!-- Layout height -->
+    <dimen name="height_0">0dp</dimen>
+    <dimen name="height_100">100dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_36">36dp</dimen>
+
+    <!-- Card radius -->
+    <dimen name="radius_10">10dp</dimen>
+    <dimen name="stock_1">1dp</dimen>
+</resources>

@@ -14,21 +14,21 @@
         onRecipeClickListener="@{result}"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="4dp">
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_4">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/row_cardView"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/width_0"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="10dp"
+            app:cardCornerRadius="@dimen/radius_10"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:strokeColor="@color/strokeColor"
-            app:strokeWidth="1dp">
+            app:strokeWidth="@dimen/stock_1">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -37,8 +37,8 @@
 
                 <ImageView
                     android:id="@+id/recipe_imageView"
-                    android:layout_width="200dp"
-                    android:layout_height="0dp"
+                    android:layout_width="@dimen/width_200"
+                    android:layout_height="@dimen/height_0"
                     loadImageFromUrl="@{result.image}"
                     android:scaleType="centerCrop"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -48,17 +48,17 @@
 
                 <TextView
                     android:id="@+id/title_textView"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/width_0"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="@dimen/margin_12"
+                    android:layout_marginTop="@dimen/margin_12"
+                    android:layout_marginEnd="@dimen/margin_12"
                     android:ellipsize="end"
                     android:fontFamily="@font/courgette"
                     android:maxLines="2"
                     android:text="@{result.title}"
                     android:textColor="@color/titleColor"
-                    android:textSize="20sp"
+                    android:textSize="@dimen/text_20"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -67,9 +67,9 @@
 
                 <TextView
                     android:id="@+id/description_textView"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/width_0"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
+                    android:layout_marginTop="@dimen/margin_12"
                     android:ellipsize="end"
                     android:maxLines="3"
                     parseHtml="@{result.summary}"
@@ -82,8 +82,8 @@
                     android:id="@+id/heart_imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginBottom="36dp"
+                    android:layout_marginTop="@dimen/margin_12"
+                    android:layout_marginBottom="@dimen/margin_36"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="@+id/heart_textView"
                     app:layout_constraintStart_toStartOf="@+id/heart_textView"
@@ -136,7 +136,7 @@
                     android:id="@+id/leaf_textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="24dp"
+                    android:layout_marginStart="@dimen/margin_24"
                     android:text="Vegan"
                     applyVeganColor="@{result.vegan}"
                     android:textAlignment="center"

@@ -11,6 +11,9 @@ import com.example.foody.R
 import com.example.foody.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
+/*
+ Created by Md. Ariful Islam on 27/02/2024
+ */
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
@@ -24,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // set nav controller
         navController = findNavController(R.id.navHostFragment)
         val appBarConfiguration = AppBarConfiguration(
             setOf(
