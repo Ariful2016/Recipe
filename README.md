@@ -1,4 +1,10 @@
-Gourmet Companion is an Android application meticulously crafted to redefine the culinary journey for discerning users. Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
+Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
+
+
+https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
+
+
+
 
 ![Screenshot (1)](https://github.com/Ariful2016/Foody/assets/69759406/f84491ab-01a8-4022-b924-2756f3404569)
 
