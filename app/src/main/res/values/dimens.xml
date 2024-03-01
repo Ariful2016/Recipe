@@ -14,7 +14,6 @@
     <!-- Text size -->
     <dimen name="text_18">18sp</dimen>
     <dimen name="text_20">20sp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- Margin -->
     <dimen name="margin_4">4dp</dimen>
