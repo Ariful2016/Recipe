@@ -12,6 +12,7 @@ https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1
 
 
 Key Features:
+
 Material Design: Exemplifies Google's Material Design principles, presenting an elegant and cohesive interface for a visually captivating and intuitive user experience.
 
 Navigation Component: Enables effortless navigation throughout the application, allowing users to seamlessly traverse between diverse sections and features with fluidity and ease.
