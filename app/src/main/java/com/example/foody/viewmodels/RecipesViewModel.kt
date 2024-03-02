@@ -68,6 +68,7 @@ class RecipesViewModel @Inject constructor(
             dataStoreRepository.saveBackOnline(backOnline)
         }
 
+    // set query for initial
     fun applyQueries(): HashMap<String, String> {
         val queries: HashMap<String, String> = HashMap()
 

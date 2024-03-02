@@ -34,6 +34,7 @@ class RecipesRowBinding {
             }
         }
 
+        // loading image with coil
         @BindingAdapter("loadImageFromUrl")
         @JvmStatic
         fun loadImageFromUrl(imageView: ImageView, imageUrl: String) {
@@ -43,6 +44,7 @@ class RecipesRowBinding {
             }
         }
 
+        // set vegan image and text color
         @BindingAdapter("applyVeganColor")
         @JvmStatic
         fun applyVeganColor(view: View, vegan: Boolean) {

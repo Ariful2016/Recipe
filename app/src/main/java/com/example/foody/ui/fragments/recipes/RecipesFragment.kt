@@ -52,6 +52,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // initialize mainViewModel and recipesViewModel before calling onCreate
         mainViewModel = ViewModelProvider(requireActivity())[MainViewModel::class.java]
         recipesViewModel = ViewModelProvider(requireActivity())[RecipesViewModel::class.java]
     }
@@ -111,6 +112,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
         return binding.root
     }
 
+    // set recyclerview
     private fun setupRecyclerView() {
         binding.recyclerview.adapter = mAdapter
         binding.recyclerview.layoutManager = LinearLayoutManager(requireContext())
@@ -148,6 +150,9 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
         }
     }
 
+    /*
+    Request api and observe the result
+     */
     private fun requestApiData() {
         Log.d("RecipesFragment", "requestApiData called!")
         mainViewModel.getRecipes(recipesViewModel.applyQueries())
@@ -155,6 +160,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
             when (response) {
                 is NetworkResult.Success -> {
                     hideShimmerEffect()
+                    // send data to adapter
                     response.data?.let { mAdapter.setData(it) }
                     recipesViewModel.saveMealAndDietType()
                 }
