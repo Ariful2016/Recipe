@@ -15,125 +15,26 @@
 
 ![Downloads](https://img.shields.io/github/downloads/Ariful2016/Foody/total) ![Contributors](https://img.shields.io/github/contributors/Ariful2016/Foody?color=dark-green) ![Forks](https://img.shields.io/github/forks/Ariful2016/Foody?style=social) ![Stargazers](https://img.shields.io/github/stars/Ariful2016/Foody?style=social) ![Issues](https://img.shields.io/github/issues/Ariful2016/Foody) ![License](https://img.shields.io/github/license/Ariful2016/Foody) 
 
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
 ![Screen Shot](https://private-user-images.githubusercontent.com/69759406/308962188-0d56d178-6ae0-4d9b-9b50-76f3540e294c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk0NDcxMjcsIm5iZiI6MTcwOTQ0NjgyNywicGF0aCI6Ii82OTc1OTQwNi8zMDg5NjIxODgtMGQ1NmQxNzgtNmFlMC00ZDliLTliNTAtNzZmMzU0MGUyOTRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAzVDA2MjAyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUwYzZmMTgxNzJjOWZkZTMyMDhiMjYxOTNhZTNjOGMxNWYyMGFlZGY3MjM3YjQ5NmI3NTAwMmZlOWM4NDU0YmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sSop8DbnsoTIknXRJIHE_OVkE7fDVj_EKCVXLEhcSug)
-
+https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
 Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
 
-## Built With
+## Language and Data Source
 
 Language: Kotlin
 
 
 * [Remote data source](https://spoonacular.com/food-api)
 * [Local data source](https://developer.android.com/training/data-storage/room)
+  ![Screenshot (1)](https://github.com/Ariful2016/Foody/assets/69759406/f84491ab-01a8-4022-b924-2756f3404569)
+  
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
-
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-
-3. Install NPM packages
-
-```sh
-npm install
-```
-
-4. Enter your API in `config.js`
-
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-## Roadmap
-
-See the [open issues](https://github.com/Ariful2016/Foody/issues) for a list of proposed features (and known issues).
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Ariful2016/Foody/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/Ariful2016/Foody/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
-
-### Creating A Pull Request
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/Ariful2016/Foody/blob/main/LICENSE.md) for more information.
-
-## Authors
-
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
-
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
-
-
-
-
-Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
-
-
-https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
-
-
-
-
-![Screenshot (1)](https://github.com/Ariful2016/Foody/assets/69759406/f84491ab-01a8-4022-b924-2756f3404569)
-
-![image](https://github.com/Ariful2016/Foody/assets/69759406/0d56d178-6ae0-4d9b-9b50-76f3540e294c)
 
 
 Key Features:
