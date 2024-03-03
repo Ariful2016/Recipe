@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/ariful2016/foody">
+  <a href="https://github.com/Ariful2016/Foody">
     <img src="https://private-user-images.githubusercontent.com/69759406/308962188-0d56d178-6ae0-4d9b-9b50-76f3540e294c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk0NDcxMjcsIm5iZiI6MTcwOTQ0NjgyNywicGF0aCI6Ii82OTc1OTQwNi8zMDg5NjIxODgtMGQ1NmQxNzgtNmFlMC00ZDliLTliNTAtNzZmMzU0MGUyOTRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAzVDA2MjAyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUwYzZmMTgxNzJjOWZkZTMyMDhiMjYxOTNhZTNjOGMxNWYyMGFlZGY3MjM3YjQ5NmI3NTAwMmZlOWM4NDU0YmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sSop8DbnsoTIknXRJIHE_OVkE7fDVj_EKCVXLEhcSug" alt="Logo" width="80" height="80">
   </a>
 
@@ -10,18 +10,10 @@
     Seamlessly integrating Jetpack components, Material Design, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, Motion Layout, Dark Theme, and Dependency Injection with Hilt
     <br/>
     <br/>
-    <a href="https://github.com/ariful2016/foody"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-    <a href="https://github.com/ariful2016/foody">View Demo</a>
-    .
-    <a href="https://github.com/ariful2016/foody/issues">Report Bug</a>
-    .
-    <a href="https://github.com/ariful2016/foody/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/ariful2016/foody/total) ![Contributors](https://img.shields.io/github/contributors/ariful2016/foody?color=dark-green) ![Forks](https://img.shields.io/github/forks/ariful2016/foody?style=social) ![Stargazers](https://img.shields.io/github/stars/ariful2016/foody?style=social) ![Issues](https://img.shields.io/github/issues/ariful2016/foody) ![License](https://img.shields.io/github/license/ariful2016/foody) 
+![Downloads](https://img.shields.io/github/downloads/Ariful2016/Foody/total) ![Contributors](https://img.shields.io/github/contributors/Ariful2016/Foody?color=dark-green) ![Forks](https://img.shields.io/github/forks/Ariful2016/Foody?style=social) ![Stargazers](https://img.shields.io/github/stars/Ariful2016/Foody?style=social) ![Issues](https://img.shields.io/github/issues/Ariful2016/Foody) ![License](https://img.shields.io/github/license/Ariful2016/Foody) 
 
 ## Table Of Contents
 
@@ -96,15 +88,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/ariful2016/foody/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Ariful2016/Foody/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ariful2016/foody/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Ariful2016/Foody/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/ariful2016/foody/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+* Please also read through the [Code Of Conduct](https://github.com/Ariful2016/Foody/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -116,7 +108,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/ariful2016/foody/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Ariful2016/Foody/blob/main/LICENSE.md) for more information.
 
 ## Authors
 
@@ -127,6 +119,7 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ariful2016/f
 * [ShaanCoding](https://github.com/ShaanCoding/)
 * [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 * [ImgShields](https://shields.io/)
+
 
 
 
