@@ -19,7 +19,9 @@
 ## About The Project
 
 ![Screen Shot](https://private-user-images.githubusercontent.com/69759406/308962188-0d56d178-6ae0-4d9b-9b50-76f3540e294c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk0NDcxMjcsIm5iZiI6MTcwOTQ0NjgyNywicGF0aCI6Ii82OTc1OTQwNi8zMDg5NjIxODgtMGQ1NmQxNzgtNmFlMC00ZDliLTliNTAtNzZmMzU0MGUyOTRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAzMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMzAzVDA2MjAyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUwYzZmMTgxNzJjOWZkZTMyMDhiMjYxOTNhZTNjOGMxNWYyMGFlZGY3MjM3YjQ5NmI3NTAwMmZlOWM4NDU0YmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sSop8DbnsoTIknXRJIHE_OVkE7fDVj_EKCVXLEhcSug)
+
 https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
+
 Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
 
 ## Language and Data Source
@@ -29,6 +31,7 @@ Language: Kotlin
 
 * [Remote data source](https://spoonacular.com/food-api)
 * [Local data source](https://developer.android.com/training/data-storage/room)
+  
   ![Screenshot (1)](https://github.com/Ariful2016/Foody/assets/69759406/f84491ab-01a8-4022-b924-2756f3404569)
   
 
