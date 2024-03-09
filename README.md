@@ -1,3 +1,5 @@
+![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
+
 <br/>
 <p align="center">
   <a href="https://github.com/Ariful2016/Foody">
