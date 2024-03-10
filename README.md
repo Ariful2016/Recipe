@@ -36,8 +36,9 @@ Language: Kotlin
 
 * [Remote data source](https://spoonacular.com/food-api)
 * [Local data source](https://developer.android.com/training/data-storage/room)
-  
-  ![data](https://github.com/Ariful2016/Foody/assets/69759406/23b99fe3-580e-402a-ba10-9917b46fdb6a)
+
+## Architecture 
+![data](https://github.com/Ariful2016/Foody/assets/69759406/23b99fe3-580e-402a-ba10-9917b46fdb6a)
 
 
 
