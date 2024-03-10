@@ -1,4 +1,6 @@
 <p align="center">
+  ![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
+
   <h3 align="center">This recipe app is developed by API and Room DB</h3>
 </p>
 
