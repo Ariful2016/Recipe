@@ -1,6 +1,4 @@
 <p align="center">
-  ![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
-
   <h3 align="center">This recipe app is developed by API and Room DB</h3>
 </p>
 
@@ -25,18 +23,16 @@
 * Dependency Injection
 * Dark Theme
 
-## About The Project
-
+## Screen short
 ![foddy](https://github.com/Ariful2016/Foody/assets/69759406/947f484c-50be-4815-8aa2-58186b2d6362)
 
+## Video
 https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
 
 Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
 
 ## Language and Data Source
-
 Language: Kotlin
-
 
 * [Remote data source](https://spoonacular.com/food-api)
 * [Local data source](https://developer.android.com/training/data-storage/room)
