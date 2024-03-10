@@ -1,24 +1,27 @@
-![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
-
-<br/>
 <p align="center">
-  <a href="https://github.com/Ariful2016/Foody">
-    <img src="https://drive.google.com/file/d/1WgfGnV6OxFqvwvTRKM9uV-GzB_vULf5Q/view">
-    ![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
-
-  </a>
-
   <h3 align="center">This recipe app is developed by API and Room DB</h3>
-
-  <p align="center">
-    Seamlessly integrating Jetpack components, Material Design, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, Motion Layout, Dark Theme, and Dependency Injection with Hilt
-    <br/>
-    <br/>
-  </p>
 </p>
 
 ![Downloads](https://img.shields.io/github/downloads/Ariful2016/Foody/total) ![Contributors](https://img.shields.io/github/contributors/Ariful2016/Foody?color=dark-green) ![Forks](https://img.shields.io/github/forks/Ariful2016/Foody?style=social) ![Stargazers](https://img.shields.io/github/stars/Ariful2016/Foody?style=social) ![Issues](https://img.shields.io/github/issues/Ariful2016/Foody) ![License](https://img.shields.io/github/license/Ariful2016/Foody) 
 
+## Recepie App
+![logo](https://github.com/Ariful2016/Foody/assets/69759406/e219355d-b037-4a80-bbf7-47955ae1af48)
+
+* Jetpack
+* Material Design
+* Navigation Component
+* Data Binding
+* Room DB
+* LiveData
+* MVVM architecture
+* Kotlin Flow
+* View Pager
+* Shimmer Loading
+* API Integration
+* Motion Layout
+* Motion Layout
+* Dependency Injection
+* Dark Theme
 
 ## About The Project
 
