@@ -24,7 +24,10 @@ private val Context.dataStore by preferencesDataStore(PREFERENCES_NAME)
 
 @ViewModelScoped
 class DataStoreRepository @Inject constructor(@ApplicationContext private val context: Context) {
-
+    /**
+     * Difference between shared_preferences and data store preferences is shared_preferences runs in
+     * main threads but data store preferences runs in background threads through kotlin coroutines.
+     */
     private object PreferenceKeys {
         val selectedMealType = stringPreferencesKey(PREFERENCES_MEAL_TYPE)
         val selectedMealTypeId = intPreferencesKey(PREFERENCES_MEAL_TYPE_ID)
