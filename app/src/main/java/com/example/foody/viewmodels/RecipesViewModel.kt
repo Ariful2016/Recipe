@@ -63,6 +63,7 @@ class RecipesViewModel @Inject constructor(
         )
     }
 
+    // save network online status
     private fun saveBackOnline(backOnline: Boolean) =
         viewModelScope.launch(Dispatchers.IO) {
             dataStoreRepository.saveBackOnline(backOnline)
@@ -88,6 +89,7 @@ class RecipesViewModel @Inject constructor(
         return queries
     }
 
+    // set query
     fun applySearchQuery(searchQuery: String): HashMap<String, String> {
         val queries: HashMap<String, String> = HashMap()
         queries[QUERY_SEARCH] = searchQuery
@@ -98,6 +100,7 @@ class RecipesViewModel @Inject constructor(
         return queries
     }
 
+    // read network online status
     fun showNetworkStatus() {
         if (!networkStatus) {
             Toast.makeText(getApplication(), "No Internet Connection.", Toast.LENGTH_SHORT).show()

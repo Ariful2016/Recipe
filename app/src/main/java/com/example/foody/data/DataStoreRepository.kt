@@ -52,6 +52,7 @@ class DataStoreRepository @Inject constructor(@ApplicationContext private val co
         }
     }
 
+    // save network online status to dataStore preferences
     suspend fun saveBackOnline(backOnline: Boolean) {
         dataStore.edit { preferences ->
             preferences[PreferenceKeys.backOnline] = backOnline
@@ -79,6 +80,7 @@ class DataStoreRepository @Inject constructor(@ApplicationContext private val co
             )
         }
 
+    // read network online status from dataStore preferences
     val readBackOnline: Flow<Boolean> = dataStore.data
         .catch { exception ->
             if (exception is IOException) {
