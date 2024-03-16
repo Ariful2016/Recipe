@@ -42,6 +42,7 @@ class RecipesBottomSheet : BottomSheetDialogFragment() {
         // Inflate the layout for this fragment
         _binding = RecipesBottomSheetBinding.inflate(inflater, container, false)
 
+        // observe the response
         recipesViewModel.readMealAndDietType.asLiveData().observe(viewLifecycleOwner) { value ->
             mealTypeChip = value.selectedMealType
             dietTypeChip = value.selectedDietType
@@ -70,6 +71,7 @@ class RecipesBottomSheet : BottomSheetDialogFragment() {
                 dietTypeChip,
                 dietTypeChipId
             )
+            // passing argument of type bool
             val action =
                 RecipesBottomSheetDirections.actionRecipesBottomSheetToRecipesFragment(true)
             findNavController().navigate(action)
@@ -78,6 +80,7 @@ class RecipesBottomSheet : BottomSheetDialogFragment() {
         return binding.root
     }
 
+    // update chipGroup and id
     private fun updateChip(chipId: Int, chipGroup: ChipGroup) {
         if (chipId != 0) {
             try {
