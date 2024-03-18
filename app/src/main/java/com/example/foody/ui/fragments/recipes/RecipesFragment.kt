@@ -183,6 +183,9 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
         }
     }
 
+    /**
+     * search menu logic
+     */
     private fun searchApiData(searchQuery: String) {
         showShimmerEffect()
         mainViewModel.searchRecipes(recipesViewModel.applySearchQuery(searchQuery))
