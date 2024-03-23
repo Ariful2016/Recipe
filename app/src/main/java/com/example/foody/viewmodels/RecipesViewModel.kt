@@ -89,7 +89,9 @@ class RecipesViewModel @Inject constructor(
         return queries
     }
 
-    // set query
+    /**
+     * set query for searching
+     */
     fun applySearchQuery(searchQuery: String): HashMap<String, String> {
         val queries: HashMap<String, String> = HashMap()
         queries[QUERY_SEARCH] = searchQuery

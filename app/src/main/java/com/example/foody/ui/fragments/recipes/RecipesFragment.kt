@@ -151,8 +151,8 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
         }
     }
 
-    /*
-    Request api and observe the result
+    /**
+     * Request api and observe the result
      */
     private fun requestApiData() {
         Log.d("RecipesFragment", "requestApiData called!")
@@ -184,7 +184,7 @@ class RecipesFragment : Fragment(), SearchView.OnQueryTextListener {
     }
 
     /**
-     * search menu logic
+     * Request api and observe the result for searching
      */
     private fun searchApiData(searchQuery: String) {
         showShimmerEffect()
