@@ -45,4 +45,9 @@
 
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
     <string name="share">Share</string>
+    <string name="consistency">Consistency</string>
+    <string name="grams">Grams</string>
+    <string name="_100">100</string>
+    <string name="name">Name</string>
+    <string name="original">Original</string>
 </resources>

@@ -3,6 +3,7 @@
     <dimen name="width_0">0dp</dimen>
     <dimen name="width_36">36dp</dimen>
     <dimen name="width_100">100dp</dimen>
+    <dimen name="width_120">120dp</dimen>
     <dimen name="width_200">200dp</dimen>
     <!-- Layout height -->
     <dimen name="height_0">0dp</dimen>
@@ -26,6 +27,10 @@
     <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_36">36dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
 
     <!-- Card radius -->
     <dimen name="radius_10">10dp</dimen>

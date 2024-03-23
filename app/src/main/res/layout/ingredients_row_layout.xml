@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="4dp">
+    android:padding="@dimen/padding_4">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/ingredients_cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="10dp"
+        app:cardCornerRadius="@dimen/radius_10"
         app:strokeColor="@color/strokeColor"
         app:strokeWidth="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,8 +28,8 @@
 
             <View
                 android:id="@+id/white_background"
-                android:layout_width="120dp"
-                android:layout_height="0dp"
+                android:layout_width="@dimen/width_120"
+                android:layout_height="@dimen/height_0"
                 android:background="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -37,8 +37,8 @@
 
             <ImageView
                 android:id="@+id/ingredient_imageView"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/width_100"
+                android:layout_height="@dimen/height_100"
                 app:layout_constraintStart_toStartOf="@+id/white_background"
                 app:layout_constraintEnd_toEndOf="@+id/white_background"
                 app:layout_constraintTop_toTopOf="@+id/white_background"
@@ -47,14 +47,14 @@
 
             <TextView
                 android:id="@+id/ingredient_name"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width_0"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
-                android:text="Name"
+                android:layout_marginStart="@dimen/margin_12"
+                android:layout_marginTop="@dimen/margin_12"
+                android:layout_marginEnd="@dimen/margin_12"
+                android:text="@string/name"
                 android:fontFamily="@font/courgette"
-                android:textSize="20sp"
+                android:textSize="@dimen/text_20"
                 android:textStyle="bold"
                 android:textColor="@color/titleColor"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -65,8 +65,8 @@
                 android:id="@+id/ingredient_amount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="100"
+                android:layout_marginTop="@dimen/margin_12"
+                android:text="@string/_100"
                 app:layout_constraintStart_toStartOf="@+id/ingredient_name"
                 app:layout_constraintTop_toBottomOf="@+id/ingredient_name" />
 
@@ -74,31 +74,31 @@
                 android:id="@+id/ingredient_unit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:text="Grams"
+                android:layout_marginStart="@dimen/margin_8"
+                android:text="@string/grams"
                 app:layout_constraintBottom_toBottomOf="@+id/ingredient_amount"
                 app:layout_constraintStart_toEndOf="@+id/ingredient_amount"
                 app:layout_constraintTop_toTopOf="@+id/ingredient_amount" />
 
             <TextView
                 android:id="@+id/ingredient_consistency"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width_0"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
-                android:text="Consistency"
+                android:layout_marginTop="@dimen/margin_12"
+                android:layout_marginEnd="@dimen/margin_12"
+                android:text="@string/consistency"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/ingredient_amount"
                 app:layout_constraintTop_toBottomOf="@+id/ingredient_amount" />
 
             <TextView
                 android:id="@+id/ingredient_original"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width_0"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_marginEnd="12dp"
-                android:layout_marginBottom="12dp"
-                android:text="Original"
+                android:layout_marginTop="@dimen/margin_12"
+                android:layout_marginEnd="@dimen/margin_12"
+                android:layout_marginBottom="@dimen/margin_12"
+                android:text="@string/original"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="@+id/ingredient_consistency"
