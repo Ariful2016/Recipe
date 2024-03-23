@@ -19,6 +19,9 @@ class RecipesRowBinding {
 
     companion object {
 
+        /**
+         * item click for details from recipe fragment to details fragment
+         */
         @BindingAdapter("onRecipeClickListener")
         @JvmStatic
         fun onRecipeClickListener(recipeRowLayout: ConstraintLayout, result: Result) {
