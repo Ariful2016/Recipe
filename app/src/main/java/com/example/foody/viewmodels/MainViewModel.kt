@@ -114,6 +114,7 @@ class MainViewModel @Inject constructor(
         }
     }
 
+
     private suspend fun getFoodJokeSafeCall(apiKey: String) {
         foodJokeResponse.value = NetworkResult.Loading()
         if (hasInternetConnection()) {
@@ -143,6 +144,9 @@ class MainViewModel @Inject constructor(
         insertFoodJoke(foodJokeEntity)
     }
 
+    /**
+     * handle response
+     */
     private fun handleFoodRecipesResponse(response: Response<FoodRecipe>): NetworkResult<FoodRecipe> {
         when {
             response.message().toString().contains("timeout") -> {
@@ -181,6 +185,7 @@ class MainViewModel @Inject constructor(
             }
         }
     }
+
 
     private fun hasInternetConnection(): Boolean {
         val connectivityManager = getApplication<Application>().getSystemService(
