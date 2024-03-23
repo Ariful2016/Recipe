@@ -72,7 +72,9 @@ class RecipesRowBinding {
                 }
             }
         }
-
+        /**
+         * remove html tag
+         */
         @BindingAdapter("parseHtml")
         @JvmStatic
         fun parseHtml(textView: TextView, description: String?){

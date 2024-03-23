@@ -29,6 +29,7 @@ class OverviewFragment : Fragment() {
         _binding = FragmentOverviewBinding.inflate(inflater, container, false)
 
         val args = arguments
+        // receive argument
         val myBundle: Result? = args!!.retrieveParcelable(RECIPE_RESULT_KEY) as Result?
 
         if (myBundle != null) {
