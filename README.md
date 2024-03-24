@@ -30,9 +30,6 @@
 ## Video
 https://github.com/Ariful2016/Foody/assets/69759406/94dbbd43-1f7c-4e92-8fe6-af2408e9d89d
 
-
-
-
 Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
 
 ## Language and Data Source
@@ -43,3 +40,16 @@ Language: Kotlin
 
 ## Architecture 
 ![data](https://github.com/Ariful2016/Foody/assets/69759406/23b99fe3-580e-402a-ba10-9917b46fdb6a)
+
+## Project Setup
+Fork or download this code and setup according to your android studio and sdk as well as dependencies.
+After successfully setup, you need to add your spoonacular api key to :
+![Screenshot 2024-03-24 150229](https://github.com/Ariful2016/Foody/assets/69759406/9f031f40-61b8-45e9-9064-abb92f428e70)
+thats it.
+
+<p align="center">
+  <h3 align="center">If this is healfull, please give a star and follow my github for more upcomming projects.</h3>
+  <h1 align="center">Thanks.🙂</h3>
+</p>
+
+
