@@ -1,4 +1,4 @@
-![Foody](https://github.com/Ariful2016/Foody/assets/69759406/bd9aaf9c-f02c-44d0-a556-897e06a36ed7)<p align="center">
+<p align="center">
   <h3 align="center">This recipe app is developed by API and Room DB</h3>
 </p>
 
