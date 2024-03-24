@@ -28,7 +28,10 @@
 
 
 ## Video
-![Demo](https://github.com/Ariful2016/Foody/assets/69759406/caf6b225-084f-419e-88e8-c9194ef54661)
+https://github.com/Ariful2016/Foody/assets/69759406/94dbbd43-1f7c-4e92-8fe6-af2408e9d89d
+
+
+
 
 Seamlessly integrating Jetpack components, Material Design aesthetics, Navigation Component, Data Binding, Room Library, Data Store Preference, LiveData, MVVM architecture, Kotlin Flow, View Pager, Shimmer, Retrofit, Spoonacular API integration, DiffUtil, Motion Layout, Dark Theme, and Dependency Injection with Hilt, this application sets a new standard in recipe discovery and exploration.
 
