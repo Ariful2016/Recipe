@@ -1,4 +1,4 @@
-<p align="center">
+![Foody](https://github.com/Ariful2016/Foody/assets/69759406/bd9aaf9c-f02c-44d0-a556-897e06a36ed7)<p align="center">
   <h3 align="center">This recipe app is developed by API and Room DB</h3>
 </p>
 
@@ -23,8 +23,9 @@
 * Dependency Injection
 * Dark Theme
 
-## Screen short
-![foddy](https://github.com/Ariful2016/Foody/assets/69759406/947f484c-50be-4815-8aa2-58186b2d6362)
+## UI Design
+![Foody](https://github.com/Ariful2016/Foody/assets/69759406/fa0a59ff-89c2-48e4-8f9e-db61dee5f537)
+
 
 ## Video
 https://github.com/Ariful2016/Foody/assets/69759406/c93915e5-d294-4d32-a872-a6f1e97cae27
